@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15093F932B02C86B00049DB4 /* animation1.json in Resources */ = {isa = PBXBuildFile; fileRef = 15093F902B02C86B00049DB4 /* animation1.json */; };
+		15093F942B02C86B00049DB4 /* animation2.json in Resources */ = {isa = PBXBuildFile; fileRef = 15093F912B02C86B00049DB4 /* animation2.json */; };
+		15093F952B02C86B00049DB4 /* animation3.json in Resources */ = {isa = PBXBuildFile; fileRef = 15093F922B02C86B00049DB4 /* animation3.json */; };
 		151085F42B015A5D0054A8E1 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151085F32B015A5D0054A8E1 /* TopView.swift */; };
 		151085F62B015F060054A8E1 /* ItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151085F52B015F060054A8E1 /* ItemsList.swift */; };
 		15EA39722AFC216700E8B3D8 /* CoffeeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA39712AFC216700E8B3D8 /* CoffeeShopApp.swift */; };
@@ -24,12 +27,12 @@
 		15EA399B2B000D0700E8B3D8 /* AnimatedIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA399A2B000D0700E8B3D8 /* AnimatedIcon.swift */; };
 		15EA399D2B000EB400E8B3D8 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA399C2B000EB400E8B3D8 /* Tab.swift */; };
 		15EA399F2B00107200E8B3D8 /* ResizableLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EA399E2B00107200E8B3D8 /* ResizableLottieView.swift */; };
-		15EA39C92B00F35900E8B3D8 /* animation1.json in Resources */ = {isa = PBXBuildFile; fileRef = 15EA39C62B00F35900E8B3D8 /* animation1.json */; };
-		15EA39CA2B00F35900E8B3D8 /* animation3.json in Resources */ = {isa = PBXBuildFile; fileRef = 15EA39C72B00F35900E8B3D8 /* animation3.json */; };
-		15EA39CB2B00F35900E8B3D8 /* animation2.json in Resources */ = {isa = PBXBuildFile; fileRef = 15EA39C82B00F35900E8B3D8 /* animation2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15093F902B02C86B00049DB4 /* animation1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation1.json; sourceTree = "<group>"; };
+		15093F912B02C86B00049DB4 /* animation2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation2.json; sourceTree = "<group>"; };
+		15093F922B02C86B00049DB4 /* animation3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation3.json; sourceTree = "<group>"; };
 		151085F32B015A5D0054A8E1 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		151085F52B015F060054A8E1 /* ItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsList.swift; sourceTree = "<group>"; };
 		15EA396E2AFC216700E8B3D8 /* CoffeeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,9 +51,6 @@
 		15EA399A2B000D0700E8B3D8 /* AnimatedIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedIcon.swift; sourceTree = "<group>"; };
 		15EA399C2B000EB400E8B3D8 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		15EA399E2B00107200E8B3D8 /* ResizableLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLottieView.swift; sourceTree = "<group>"; };
-		15EA39C62B00F35900E8B3D8 /* animation1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animation1.json; path = ../../../../../../Downloads/CoffeeApp/render/animation1.json; sourceTree = "<group>"; };
-		15EA39C72B00F35900E8B3D8 /* animation3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animation3.json; path = ../../../../../../Downloads/CoffeeApp/render/animation3.json; sourceTree = "<group>"; };
-		15EA39C82B00F35900E8B3D8 /* animation2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animation2.json; path = ../../../../../../Downloads/CoffeeApp/render/animation2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +141,9 @@
 		15EA39A62B00173B00E8B3D8 /* Tab Icons JSON */ = {
 			isa = PBXGroup;
 			children = (
-				15EA39C72B00F35900E8B3D8 /* animation3.json */,
-				15EA39C62B00F35900E8B3D8 /* animation1.json */,
-				15EA39C82B00F35900E8B3D8 /* animation2.json */,
+				15093F902B02C86B00049DB4 /* animation1.json */,
+				15093F912B02C86B00049DB4 /* animation2.json */,
+				15093F922B02C86B00049DB4 /* animation3.json */,
 			);
 			path = "Tab Icons JSON";
 			sourceTree = "<group>";
@@ -213,12 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				15EA39862AFC239500E8B3D8 /* Poppins-SemiBold.ttf in Resources */,
+				15093F942B02C86B00049DB4 /* animation2.json in Resources */,
+				15093F932B02C86B00049DB4 /* animation1.json in Resources */,
 				15EA39792AFC216900E8B3D8 /* Preview Assets.xcassets in Resources */,
 				15EA39762AFC216900E8B3D8 /* Assets.xcassets in Resources */,
+				15093F952B02C86B00049DB4 /* animation3.json in Resources */,
 				15EA39892AFC2ECE00E8B3D8 /* Poppins-Regular.ttf in Resources */,
-				15EA39CA2B00F35900E8B3D8 /* animation3.json in Resources */,
-				15EA39CB2B00F35900E8B3D8 /* animation2.json in Resources */,
-				15EA39C92B00F35900E8B3D8 /* animation1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
