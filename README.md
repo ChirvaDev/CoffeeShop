@@ -26,7 +26,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/CoffeeShop.git
+   git clone https://github.com/ChirvaDev/CoffeeShop.git
 2. Open the project in Xcode.
 3. Build and run the app on a simulator or a physical device.
 
