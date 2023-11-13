@@ -1,0 +1,2 @@
+# CoffeeShop
+ "CoffeeShop" is an application designed to provide users with information about a coffee shop.Users can explore the cafe's offerings, view its ambiance through images, and even find the shop's schedule. The app features a dynamic user interface, showcasing details such as the coffee shop's name, operating hours, and location on an interactive map The project leverages SwiftUI, MapKit, Lottie and custom design elements for an engaging and user-friendly experience.
